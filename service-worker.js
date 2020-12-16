@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tuturu-chat/precache-manifest.12b7f0355ae637fb58239d1c4ba1d277.js"
+  "/precache-manifest.3b9dc4e46485088090d87dd512a2e093.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "tuturu-chat"});
+workbox.core.setCacheNameDetails({prefix: "tuturuchat"});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
